@@ -14,6 +14,7 @@ import Key from "../demos/11_Key";
 import Select from "../demos/12_Select";
 import SignUp from "../demos/13_SignUp";
 import Calculator from "../demos/14_Calculator";
+import RenderProps from "../demos/15_RenderProps";
 
 export const componentList = {
   HelloWord: <HelloWord />,
@@ -22,16 +23,32 @@ export const componentList = {
   Comment: (
     <Comment date={comment.date} text={comment.text} author={comment.author} />
   ),
-  List:<List numbers={comment.numbers} />,
-  TextArea:<TextArea />,
-  Welcome:<Welcome />,
-  Clock:<Clock />,
-  Toggle:<Toggle />,
-  LoginControl:<LoginControl />,
-  Key:<Key posts={comment.posts} />,
-  Select:<Select />,
-  SignUp:<SignUp />,
-  Calculator:<Calculator />
-  
+  List: <List numbers={comment.numbers} />,
+  TextArea: <TextArea />,
+  Welcome: <Welcome />,
+  Clock: <Clock />,
+  Toggle: <Toggle />,
+  LoginControl: <LoginControl />,
+  Key: <Key posts={comment.posts} />,
+  Select: <Select />,
+  SignUp: <SignUp />,
+  Calculator: <Calculator />,
+  RenderProps: <RenderProps />
 };
-export const componentNameList = ["HelloWord", "JSX", "Tick", "Comment","List","TextArea","Welcome","Clock","Toggle","LoginControl","Key","Select","SignUp","Calculator"];
+export const componentNameList = [
+  "HelloWord",
+  "JSX",
+  "Tick",
+  "Comment",
+  "List",
+  "TextArea",
+  "Welcome",
+  "Clock",
+  "Toggle",
+  "LoginControl",
+  "Key",
+  "Select",
+  "SignUp",
+  "Calculator",
+  "RenderProps"
+];
