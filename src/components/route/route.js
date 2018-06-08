@@ -15,13 +15,14 @@ import Select from "../demos/12_Select";
 import SignUp from "../demos/13_SignUp";
 import Calculator from "../demos/14_Calculator";
 import RenderProps from "../demos/15_RenderProps";
+import RenderProps2 from "../demos/16_RenderProps2";
 
 export const componentList = {
   HelloWord: <HelloWord />,
   JSX: <JSX />,
   Tick: <Tick />,
   Comment: (
-    <Comment date={comment.date} text={comment.text} author={comment.author} />
+    <Comment {...comment} />
   ),
   List: <List numbers={comment.numbers} />,
   TextArea: <TextArea />,
@@ -33,7 +34,8 @@ export const componentList = {
   Select: <Select />,
   SignUp: <SignUp />,
   Calculator: <Calculator />,
-  RenderProps: <RenderProps />
+  RenderProps: <RenderProps />,
+  RenderProps2: <RenderProps2 />
 };
 export const componentNameList = [
   "HelloWord",
@@ -50,5 +52,6 @@ export const componentNameList = [
   "Select",
   "SignUp",
   "Calculator",
-  "RenderProps"
+  "RenderProps",
+  "RenderProps2",
 ];
