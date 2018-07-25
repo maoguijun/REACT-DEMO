@@ -16,7 +16,7 @@ import SignUp from "../demos/13_SignUp";
 import Calculator from "../demos/14_Calculator";
 import RenderProps from "../demos/15_RenderProps";
 import RenderProps2 from "../demos/16_RenderProps2";
-import ClickDown from "../demos/17_ClickDown";
+// import ClickDown from "../demos/17_ClickDown";
 
 export const componentList = {
   HelloWord: <HelloWord />,
@@ -34,8 +34,8 @@ export const componentList = {
   SignUp: <SignUp />,
   Calculator: <Calculator />,
   RenderProps: <RenderProps />,
-  RenderProps2: <RenderProps2 />,
-  ClickDown: <ClickDown />
+  RenderProps2: <RenderProps2 />
+  // ClickDown: <ClickDown />
 };
 export const componentNameList = [
   "HelloWord",
@@ -53,6 +53,6 @@ export const componentNameList = [
   "SignUp",
   "Calculator",
   "RenderProps",
-  "RenderProps2",
-  "ClickDown"
+  "RenderProps2"
+  // "ClickDown"
 ];
