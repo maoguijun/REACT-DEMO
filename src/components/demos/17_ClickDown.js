@@ -21,7 +21,7 @@ class ClickDown extends Component {
           点我下载(直接通过百度图库的地址下载)
         </a>
         <a
-          href={"/download/u=4135158290,2541209692&fm=27&gp=0.jpg"}
+          href={"/download/it/u=4135158290,2541209692&fm=27&gp=0.jpg"}
           download="图片"
         >
           点我下载(通过自己nginx反向代理下载)
